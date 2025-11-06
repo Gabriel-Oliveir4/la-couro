@@ -1,6 +1,6 @@
 "use client";
 import { useMemo, useState } from "react";
-import ThemeToggle from "@/components/ThemeToggle"; // você já tem esse arquivo
+import ThemeToggle from "@/components/ThemeToggle";
 
 export default function Page() {
   const [nome, setNome] = useState("");
